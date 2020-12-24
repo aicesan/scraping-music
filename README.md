@@ -19,9 +19,14 @@ pip install scrapy
 Once scrapy is installed, open a command line and navigate to the ./scraping-music/ScrapingSpotifyCharts/ directory. Once there, run the following command:
 
 ```python
-scrapy crawl spotify-charts -o results.json #to create a json file named results with the scraped data
-scrapy crawl spotify-charts -o results.csv #to create a csv file named results with the scraped data
-scrapy crawl spotify-charts -o results.html #to create a html file named results with the scraped data
+# Export as JSON
+scrapy crawl spotify-charts -o results.json
+
+# Export as CSV
+scrapy crawl spotify-charts -o results.csv
+
+# Export as HTML
+scrapy crawl spotify-charts -o results.html
 ```
 
 ## Example results
