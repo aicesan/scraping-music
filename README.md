@@ -11,18 +11,21 @@
  ## Installing Scrapy
 Open a command line. Using python 3.7.9 or above, use:
 
-```
+```python
 pip install scrapy
 ```
 
 ## Crawling the webpages
 Once scrapy is installed, open a command line and navigate to the ./scraping-music/ScrapingSpotifyCharts/ directory. Once there, run the following command:
 
-```
+```python
 scrapy crawl spotify-charts -o results.json #to create a json file named results with the scraped data
 scrapy crawl spotify-charts -o results.csv #to create a csv file named results with the scraped data
 scrapy crawl spotify-charts -o results.html #to create a html file named results with the scraped data
 ```
+
+## Example results
+The file named 2020-december-23-results.json is an example output file. This scraping job was run on the 2020-12-23.
 
 ## Scraping-hub
 Scrapinghub.com is a service created by the same team that created the Scrapy library. You can use this service to run a scraping job automatically everytime you need. The data will be saved in their cloud for you to download and use whenever you want. 
@@ -30,5 +33,7 @@ Scrapinghub.com is a service created by the same team that created the Scrapy li
 Please feel free to ask any questions!
 
 Author: Andres Sanchez
+
 Email: andres.sanchez.liu@gmail.com
+
 UpWork: Andres Sanchez
