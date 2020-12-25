@@ -30,7 +30,7 @@ scrapy crawl spotify-charts -o results.html
 ```
 
 ## Example results
-The file named 2020-december-23-results.json is an example output file. This scraping job was run on the 2020-12-23.
+The file named 2020-december-23-results.json is an example output file. This scraping job was run on the 2020-12-23. You can check it using a text editor.
 
 ## Scraping-hub
 Scrapinghub.com is a service created by the same team that created the Scrapy library. You can use this service to run a scraping job automatically everytime you need. The data will be saved in their cloud for you to download and use whenever you want. 
